@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     scroll-behavior: smooth;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(250, 170, 66);
+    padding: 50px;
+}
+ 
+ 
+
+header {
+  top: 0;
+  background-color: rgba(15, 15, 30, 0.9);
+    justify-content: space-between ;
+    padding: 30px 20px;
+    list-style: none;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header ul  {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    transition: 0.3s;
+    
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition:  0.5s;
+   
+}
+
+header ul li a:hover {
+    background: rgba(240, 68, 68, 0.8);
+    border-radius: 10px;
+   
+   
+}
+
+article{
+    background-color : rgba( 0,0,0,0.7);
+    padding: 20px ;
+    margin: 50px;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 107, 53, 0.3);
+}
+ 
+article:hover{
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.3);
+            border-color: #ff6b35;
+        }
+
+
+figure {
+    text-align: center;
+}
+
+.mars{
+    display: flex;
+ }
+.info{display: flex;
+    gap :30px;
+    margin-top: 40px;
+}
+
+
+ footer{
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 20px;
+ 
+  font-size: 30px;
+}
+ .video {
+  z-index: -1;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  object-fit: cover;
+
+ }
+
+
+ .card-grid {
+        display: flex;
+        gap :30px;
+        margin-top: 40px;
+        text-align: center;
+        }
+  .card {
+            background: rgba(0, 0, 0, 0.50);
+            border: 1px solid rgba(255, 107, 53, 0.3);
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .card:hover {
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.3);
+            border-color: #ff6b35;
+        }
+
+        .card-title {
+            font-size: 2vh;
+            text-align: center;
+            color: #ffa07a;
+        }
+
+        .card-text {
+            font-size: 30px ;
+           
+            color: #ddd;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
